@@ -1,0 +1,26 @@
+.include ./tsmc180.txt
+m1 vdd in 0 0 nfet w=10u l=3u
+v_dd vdd 0 3.3
+v_in in 0 3.3
+
+.dc v_in 0 3.3 0.1 v_dd 0 3.3 1
+
+.control
+
+foreach vt 0.1 0.4 0.8
+altermod m1 VTH0 = $vt
+run
+end
+.endc
+.control
+
+end
+
+set color0=white
+set color1=black
+set color2=blue
+set xbrushwidth=3
+
+plot dc1.v_dd#branch*-1 
+.endc
+.end

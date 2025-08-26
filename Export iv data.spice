@@ -1,0 +1,25 @@
+.include ./t14y.txt
+.temp 40
+
+m1 vdd in 0 0 CMOSN w=10u l=3u
+v_dd vdd 0 3.3
+v_in in 0 3.3
+.dc v_in 0 3.3 0.1
+
+
+.control
+run 
+
+
+plot -v_dd#branch 
+end
+set color0=white
+set color1=black
+set color2=red
+
+set xbrushwidth=3
+print -v_dd#branch
+wrdata iv_data.txt -v_dd#branch
+
+.endc
+.end

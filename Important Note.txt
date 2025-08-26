@@ -1,0 +1,9 @@
+For level 49 model the λ is calculated by so many internal parameters based on equation which is based on device physics which is research topic so taking just for simplification take PCLM (channel length modulation coefficient) value from level 49 and vary that.
+
+For more details regarding level 49 parameter and how those parameters are affecting the device and device physics equation. Refer " BSIM3v3.3 MOSFET Model" or BSIM3v3 Manual.
+
+For more in depth understanding we can refer MOSFET MODELING & BSIM3 USER’S GUIDE book.
+
+Device physics are consisting of some complex equations which are solved by simulator (here ngspice).
+
+For command refer ngspice manual (here version 44).
