@@ -72,7 +72,9 @@ iv_data.txt will be generated. Left side is voltage value and write side is curr
 
 Here sweaping step size is 0.1 as shown above.
 
-If you want your Id vs Vgs plot to be ploted on logarithmic scale then python tool is provided here named "Plot_on_logarithmic_scale". import the iv_data.txt and run the command. we can see the plot on logarthmic scale. 
+If you want your Id vs Vgs plot to be ploted on logarithmic scale then python tool is provided here named "Plot_on_logarithmic_scale". import the iv_data.txt and run the command. we can see the plot on logarthmic scale as shown here. 
+
+<img width="601" height="472" alt="image" src="https://github.com/user-attachments/assets/52fc6cee-17eb-4454-88ff-002642e5ff31" />
 
 
 
