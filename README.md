@@ -64,6 +64,17 @@ Drain current directly proportional to mobility , mobility is inversly proportio
 Temperature is 20 (top pink) -- 40 (middle) -- 100 (bottom blue colour)
 
 
+<img width="1043" height="571" alt="image" src="https://github.com/user-attachments/assets/6ab55148-922c-4532-be1d-059351cd517a" />
+
+iv_data.txt will be generated. Left side is voltage value and write side is current value.
+
+<img width="1011" height="525" alt="image" src="https://github.com/user-attachments/assets/7fbe0d19-80a4-4d6f-b103-4ed4c96f2463" />
+
+Here sweaping step size is 0.1 as shown above.
+
+If you want your Id vs Vgs plot to be ploted on logarithmic scale then python tool is provided here named "Plot_on_logarithmic_scale". import the iv_data.txt and run the command. we can see the plot on logarthmic scale. 
+
+
 
 
 
