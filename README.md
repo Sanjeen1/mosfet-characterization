@@ -33,6 +33,41 @@ When threshold voltage increase the drain current reduced as we can see accordin
 
 <img width="1157" height="593" alt="image" src="https://github.com/user-attachments/assets/ab8a21e1-d150-40c5-8b38-331f9065b30f" />
 
+**For different length-**
+
+<img width="1041" height="564" alt="image" src="https://github.com/user-attachments/assets/ea927f19-53d3-4184-a319-2557455dbd5b" />
+
+Same as current equation 
+
+**For different width-**
+
+<img width="1041" height="416" alt="image" src="https://github.com/user-attachments/assets/d2e5c416-ae0d-4afc-9bb6-f291ddf3c2d2" />
+
+**Effect of channel length modulation -**
+
+<img width="1055" height="459" alt="image" src="https://github.com/user-attachments/assets/9621d72f-4cc8-44de-a13b-71ecaa0096fd" />
+
+**Effect of source to body voltage (Vsb) -**
+Sweaping Vsb and ploting Id vs Vg for threshold voltage 
+
+<img width="757" height="449" alt="image" src="https://github.com/user-attachments/assets/831955e6-9b5e-411e-b1ef-f01d22135de1" />
+
+The vsb is variying from 0 (left most) to 1.8 (right most). we can see threshold voltage increases as Vsb is induced and this phenomenon is known as body effect. If Vsb = 0 then body effect is absent. When Vsb is increased then threshold voltage is induced. The Vsb is positive means source is means body is more negative than source.
+
+**Vsb increases then threshold voltage increases or when Vbs increases threshold voltage decreases.**
+
+**Effect of temperature -**
+
+<img width="753" height="476" alt="image" src="https://github.com/user-attachments/assets/2c939243-9124-48b6-b344-1d7bcf50e374" />
+
+Drain current directly proportional to mobility , mobility is inversly proportional to temperature, so for low temprature drain current will be higher for particular Vgs as shown here. 
+Temperature is 20 (top pink) -- 40 (middle) -- 100 (bottom blue colour)
+
+
+
+
+
+
 
 
 
